@@ -15,6 +15,7 @@ def threeSumClosest(a, t):
         k=len(a)-1
         while(j<k):
             sum=a[j]+a[k]+a[i]
+            #Check whether the new difference is less than the existing difference
             if abs(t-sum)<abs(diff):
                 diff=abs(sum-t)
                 ans=sum
