@@ -18,7 +18,7 @@ class Solution:
         curr=head
         
         while(curr):
-            
+            #Copy the reference of the random pointer to the corresponding node.
             if  curr.random:
                 m[curr].random=m[curr.random]
             curr=curr.next
