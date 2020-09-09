@@ -18,10 +18,12 @@ class Solution:
         while queue:
             size=len(queue)
             for i in range(size):
+                #Pop the current word
                 current_word=queue.pop(0)
                 l=list(current_word)
                 for i in range(len(l)):
                     ch=l[i]
+                    #Try changing each character.
                     for character in s:
                         if l[i]==character:
                             continue
