@@ -13,7 +13,7 @@ def generate_balanced_parantheses(open,close,op):
         generate_balanced_parantheses(open,close-1,op2)
    
 
-n=5
+n=20
 open=n
 close=n
 generate_balanced_parantheses(open,close,"")
