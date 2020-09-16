@@ -12,6 +12,7 @@ class Solution:
         for i in nums[1:]:
             currentMax=max(currentMax+i,i)
             # print(currentMax)
+            
             m=max(m,currentMax)
         return m
         

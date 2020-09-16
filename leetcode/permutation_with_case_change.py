@@ -18,9 +18,10 @@ def solve(ip,op):
         ip=ip[1:]
         solve(ip,op1)
         solve(ip,op2)
+        
 
 
 
-s="a1B2A"
+s="ab"
 op=""
 solve(s,op)
